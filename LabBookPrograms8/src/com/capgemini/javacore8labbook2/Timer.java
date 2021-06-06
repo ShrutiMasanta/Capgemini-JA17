@@ -9,7 +9,7 @@ public class Timer implements Runnable{
 		// TODO Auto-generated method stub
 		while(true) {
 			try {
-				System.out.println("["+new Date() +"] : timer refreshed!");
+				System.out.println("["+new Date() +"] : Timer Refreshed!!!!");
 				Thread.sleep(10000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
